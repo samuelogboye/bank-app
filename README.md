@@ -21,14 +21,14 @@ Joint Accounts: Multiple account holders can be added to the same account, makin
 Account Closure: Users have the option to close their account, which will reset the balance, remove all account holders, and clear the transaction history.
 
 Usage
+```
 Creating an Account:
-python
-Copy code
 acc_num = input("Enter your account number: ")
 account_holder = input("Enter your name: ")
 
 account1 = BankAccount(acc_num, account_holder)
 account1.set_pass()
+```
 Making Deposits:
 python
 Copy code
