@@ -21,7 +21,7 @@ class BankAccount:
             b = input("Confirm your password: ")
             if a == b:
                 self.passw = a
-                print("Password successfuly set")
+                print("Password successfully set")
                 break
             else:
                 print("Not Same, Try again")
@@ -63,7 +63,7 @@ class BankAccount:
         # Calculate and add interest to the balance
         interest_amount = self.balance * self.interest_rate
         self.balance += interest_amount
-        print("Interest Applied:", interest_amount)
+        print("Interest Applied:", round(interest_amount, 2)
 
     def close_account(self):
         self.balance = 0
