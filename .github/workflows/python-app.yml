@@ -25,6 +25,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        path: bank-app
 
     - name: Check repository name
       run: echo "Repository name:${{ env.GITHUB_REPOSITORY }}"
