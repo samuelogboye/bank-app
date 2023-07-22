@@ -59,9 +59,8 @@ For example:
 ```
 git switch -c add-alonzo-church
 ```
-## Make necessary changes and commit those changes
+## Make necessary changes/add features and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it. Don't add it at the beginning or end of the file. Put it anywhere in between. Now, save the file.
 
 <img align="right" width="450" src="https://firstcontributions.github.io/assets/Readme/git-status.png" alt="git status" />
 
@@ -70,15 +69,14 @@ If you go to the project directory and execute the command `git status`, you'll 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add Contributors.md
+git add <file_name>
 ```
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add your-name to Contributors list"
+git commit -m "a clear commit message"
 ```
 
-replacing `your-name` with your name.
 
 ## Push changes to GitHub
 
