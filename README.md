@@ -1,4 +1,4 @@
-# BankAccount Class
+# Bank App Program
 The BankAccount class is a simple Python class that simulates a bank account. It allows users to create an account, set a password, make deposits, withdraw funds, check their balance, apply interest, and even close the account. The class also supports multiple account holders, making it suitable for joint accounts.
 
 ## Features
@@ -58,6 +58,6 @@ Note
 Remember to modify the interest_rate variable inside the BankAccount class if you want to change the interest rate applied to the balance.
 
 Author
-This BankAccount class was created by [Your Name]. If you have any questions or feedback, feel free to contact me at [your@email.com].
+This project is an opensource project, feel free to contribute
 
 Enjoy managing your virtual bank account!
