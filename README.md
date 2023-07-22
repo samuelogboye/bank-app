@@ -20,41 +20,48 @@ Joint Accounts: Multiple account holders can be added to the same account, makin
 
 Account Closure: Users have the option to close their account, which will reset the balance, remove all account holders, and clear the transaction history.
 
-Usage
-```
+## Usage
 Creating an Account:
+```
 acc_num = input("Enter your account number: ")
 account_holder = input("Enter your name: ")
 
 account1 = BankAccount(acc_num, account_holder)
 account1.set_pass()
 ```
+
 Making Deposits:
-python
-Copy code
+```
 account1.deposit()
+```
+
 Making Withdrawals:
-python
-Copy code
+```
 account1.withdraw()
+```
+
 Displaying Balance and Transaction History:
-python
-Copy code
+```
 account1.display_balance()
+```
+
 Adding Joint Account Holders:
-python
-Copy code
+```
 account_holder2 = input("Enter the name of the additional account holder: ")
 account1.add_account_holder(account_holder2)
+```
+
 Applying Interest:
-python
-Copy code
+```
 account1.apply_interest()
+```
+
 Closing the Account:
-python
-Copy code
+```
 account1.close_account()
-Note
+```
+
+Note 
 Remember to modify the interest_rate variable inside the BankAccount class if you want to change the interest rate applied to the balance.
 
 Author
