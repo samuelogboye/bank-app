@@ -26,6 +26,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
+    - name: Check repository name
+      run: echo "Repository name:${{ env.GITHUB_REPOSITORY }}"
+      
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
