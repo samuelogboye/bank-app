@@ -2,6 +2,7 @@
 
 
 class BankAccount:
+    """Initialize class bankaccount"""
     def __init__(self, account_number, account_holder):
         self.account_number = account_number
         self.account_holders = [account_holder]
