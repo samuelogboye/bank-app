@@ -9,7 +9,7 @@ I wish you a very Happy Birthday.
 I hope you had a great day."""
 
 sender_address = "samplecoder2023@gmail.com"
-sender_password = "wkqwcbsfwevdydxg"
+sender_password = ""
 
 context = ssl.create_default_context()
 with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
